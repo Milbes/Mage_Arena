@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9a5ec65884b3b14e88e0fab5bc6288a, type: 3}
+  m_Name: Item Settings
+  m_EditorClassIdentifier: 
+  raritySettings:
+  - itemRarity: 1
+    itemLevelMultiplier: 0.01
+    itemRarityRandomWeight: 60
+    slotBackground: {fileID: 21300000, guid: 113e5dcd4679b9b4090bb153897fa117, type: 3}
+    slotFrame: {fileID: 21300000, guid: 71086a052d38e0846b7e33b98896a789, type: 3}
+    color: {r: 0.8396226, g: 0.8396226, b: 0.8396226, a: 1}
+    titleImage: {fileID: 21300000, guid: 5563fe2c9bfdd2547a5fd655fb0fba57, type: 3}
+    titleLeftImage: {fileID: 21300000, guid: 8d81a709a79c1104d88d58c74c99e092, type: 3}
+    itemDailyDealRarityRandomWeight: 0
+    itemDailyDealCoinsPrice: 0.3
+    itemDailyDealGemsPrice: 0.5
+    dailyDealBackground: {fileID: 21300000, guid: ee9ecb51cd8022844a53a7f2d6cb340b,
+      type: 3}
+    windowShining: {fileID: 21300000, guid: 9b6513fe911077249956f1d216879832, type: 3}
+  - itemRarity: 2
+    itemLevelMultiplier: 0.05
+    itemRarityRandomWeight: 30
+    slotBackground: {fileID: 21300000, guid: 9fa4ebda81164644893163552b9c4048, type: 3}
+    slotFrame: {fileID: 21300000, guid: 71086a052d38e0846b7e33b98896a789, type: 3}
+    color: {r: 0.6329031, g: 0.9528302, b: 0.61574405, a: 1}
+    titleImage: {fileID: 21300000, guid: 7c125c4d2e4e4904a931889ea658ef06, type: 3}
+    titleLeftImage: {fileID: 21300000, guid: 8bc7b7f6c799a1f4381eaaea9b7a2b96, type: 3}
+    itemDailyDealRarityRandomWeight: 0
+    itemDailyDealCoinsPrice: 0.3
+    itemDailyDealGemsPrice: 0.5
+    dailyDealBackground: {fileID: 21300000, guid: ee9ecb51cd8022844a53a7f2d6cb340b,
+      type: 3}
+    windowShining: {fileID: 21300000, guid: dbc273766a2988847971955eadcdaf83, type: 3}
+  - itemRarity: 4
+    itemLevelMultiplier: 0.1
+    itemRarityRandomWeight: 20
+    slotBackground: {fileID: 21300000, guid: 4e02fd82d5b8c4e42b83f45f5e75f7fa, type: 3}
+    slotFrame: {fileID: 21300000, guid: a763b710b0605694782b751c0a0252c2, type: 3}
+    color: {r: 0.504717, g: 0.71762294, b: 1, a: 1}
+    titleImage: {fileID: 21300000, guid: cfd6876af6db40140b60aea6f70ec0b1, type: 3}
+    titleLeftImage: {fileID: 21300000, guid: 7e99afd88a26f61429e7375c917ddc84, type: 3}
+    itemDailyDealRarityRandomWeight: 20
+    itemDailyDealCoinsPrice: 0.3
+    itemDailyDealGemsPrice: 0.5
+    dailyDealBackground: {fileID: 21300000, guid: ee9ecb51cd8022844a53a7f2d6cb340b,
+      type: 3}
+    windowShining: {fileID: 21300000, guid: a17eecb1fad2c31478fa8bf2ce34aacd, type: 3}
+  - itemRarity: 8
+    itemLevelMultiplier: 0.15
+    itemRarityRandomWeight: 10
+    slotBackground: {fileID: 21300000, guid: 1a76d8cee1b11664f9f23df16b6d8d6d, type: 3}
+    slotFrame: {fileID: 21300000, guid: 24f46fe91df3a8448af1381b20b47f1d, type: 3}
+    color: {r: 0.81161773, g: 0.5058824, b: 1, a: 1}
+    titleImage: {fileID: 21300000, guid: 615aa2c1824ef594283e07b2f21ce61d, type: 3}
+    titleLeftImage: {fileID: 21300000, guid: 4cd050f2ce0be724cad9a2b50c807ed0, type: 3}
+    itemDailyDealRarityRandomWeight: 10
+    itemDailyDealCoinsPrice: 0.3
+    itemDailyDealGemsPrice: 0.5
+    dailyDealBackground: {fileID: 21300000, guid: 02b10b2b8fb48e441a8dbd0899cf26c0,
+      type: 3}
+    windowShining: {fileID: 21300000, guid: 49ba02340a6b0734a9e2aca06c788086, type: 3}
+  - itemRarity: 16
+    itemLevelMultiplier: 0.2
+    itemRarityRandomWeight: 5
+    slotBackground: {fileID: 21300000, guid: 57a9788820da7734ba3dd1b6e6339da5, type: 3}
+    slotFrame: {fileID: 21300000, guid: bd140cf04c8252445a9a538d200d013d, type: 3}
+    color: {r: 1, g: 0.7277595, b: 0.2783019, a: 1}
+    titleImage: {fileID: 21300000, guid: 8981729f75acb714eaf76dfa2a006602, type: 3}
+    titleLeftImage: {fileID: 21300000, guid: 410c00ca57a1ad14ba8639af2bd892fe, type: 3}
+    itemDailyDealRarityRandomWeight: 5
+    itemDailyDealCoinsPrice: 0.3
+    itemDailyDealGemsPrice: 0.5
+    dailyDealBackground: {fileID: 21300000, guid: 2d3bcbe9f8a456045bf4e4b25aa2feef,
+      type: 3}
+    windowShining: {fileID: 21300000, guid: 2034dbc7dfbc3854397c0290899f117b, type: 3}
+  defaultWeapon: {fileID: 11400000, guid: 47a4040d44cc60746a1cd64d12321678, type: 2}
+  chracterUpdateItemID: 0
+  keyItemID: 1
+  royalKeyItemID: 2
+  dailyDealAllowedRarities: 28

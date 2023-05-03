@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c80cdc7c74058b845bb73834fefc900b, type: 3}
+  m_Name: Fire Orbs Ability
+  m_EditorClassIdentifier: 
+  name: Fire Orbs
+  description: Fire Orbs
+  icon: {fileID: 21300000, guid: 957b5eb79613c9e4ba998fe20092f8c9, type: 3}
+  orbType: 2
+  maxStackAmount: 3
+  activateOnPlay: 0
+  devTier: 3
+  orbProjectile: {fileID: 1155009748367258688, guid: 9533b68cea684534180835fb3180d623,
+    type: 3}
+  orbsParticle: {fileID: 7427794889059786166, guid: a33ec3080e39f15478d898e31a8d7f61,
+    type: 3}
+  orbDamage: 0.5
+  radius: 3
+  speed: 180

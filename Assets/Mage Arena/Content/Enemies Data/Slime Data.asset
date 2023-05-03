@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 927a4cb360cbd414ca00ec08aadd79ee, type: 3}
+  m_Name: Slime Data
+  m_EditorClassIdentifier: 
+  health: 150
+  bodyDamage: 25
+  speed: 4
+  coinsAmount: 20
+  shootAudio: {fileID: 8300000, guid: 4d0596e89c61c1f43bd09e4a10a3c4f0, type: 3}
+  deathAudio: {fileID: 8300000, guid: 96bbf34d7aee725449bb8a5f1a46bfbb, type: 3}
+  parentScale: 0.8
+  childScale: 0.6
+  runningMaxDistance: 10
+  idleDuration: 1

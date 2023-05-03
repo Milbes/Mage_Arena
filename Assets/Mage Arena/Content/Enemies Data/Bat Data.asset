@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58106e8b36e140a4fa7039411148cbab, type: 3}
+  m_Name: Bat Data
+  m_EditorClassIdentifier: 
+  health: 100
+  bodyDamage: 20
+  speed: 8
+  coinsAmount: 20
+  shootAudio: {fileID: 8300000, guid: 6e44f96a7b0bc164f963aed192d6a1f1, type: 3}
+  deathAudio: {fileID: 8300000, guid: 96bbf34d7aee725449bb8a5f1a46bfbb, type: 3}
+  idleDuration: 1.5
+  idleAfterRunningDuration: 1
+  playerTooCloseDistance: 5
+  runAwayFromPlayerDistance: 10
+  projectile: {fileID: 11400000, guid: 708423c62c536e54bb7c30fb969c6f1e, type: 2}
+  projectileDamage: 20
+  startFiringDelay: 0.5
+  delayBetweenShots: 0.033

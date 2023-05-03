@@ -1,0 +1,303 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7583589979712355413
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f59bc7bea8ae434087219018082c92b, type: 3}
+  m_Name: Watermelon.InventoryInitModule
+  m_EditorClassIdentifier: 
+  moduleName: Inventory
+  itemDatabase: {fileID: 11400000, guid: eb6d96de98fd0a3468ccf9fb2982043c, type: 2}
+  itemSettings: {fileID: 11400000, guid: 6ed3ebc8d9291be48a54f90e60adab1d, type: 2}
+  showLogs: 1
+--- !u!114 &-6030051165345067182
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc5213a4a399d8142b6c8c4c50f7f014, type: 3}
+  m_Name: Watermelon.AdsManagerInitModule
+  m_EditorClassIdentifier: 
+  moduleName: Ads Manager
+  settings: {fileID: 0}
+  dummyCanvasPrefab: {fileID: 985655532585203946, guid: f303b4abc46e53847ac7102c2077ea6c,
+    type: 3}
+--- !u!114 &-5933701916499308679
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40ecc7510b6ecfc4e947fbca5b1178a6, type: 3}
+  m_Name: Watermelon.StoreInitModule
+  m_EditorClassIdentifier: 
+  moduleName: Store Module
+  storeDatabase: {fileID: 11400000, guid: ec8fa4c3ede16434fafca565b3e09483, type: 2}
+--- !u!114 &-5548583586913195279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7214a3fec9d0a024f9e9e3e2f6937f4e, type: 3}
+  m_Name: Watermelon.SceneLoaderInitModule
+  m_EditorClassIdentifier: 
+  moduleName: Scene Loader
+  loadSceneOnStart: 1
+  firstScene: Menu
+--- !u!114 &-5469389369826686073
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f517638b73f01c34780e6f4e044107a3, type: 3}
+  m_Name: Watermelon.AdsManagerInitModule
+  m_EditorClassIdentifier: 
+  moduleName: Ads Manager
+  settings: {fileID: 11400000, guid: f0858c0f24b3ff5489e1fefb94c661e5, type: 2}
+  dummyCanvasPrefab: {fileID: 985655532585203946, guid: a7af08efc5cd16c4db955b7f65f00dfc,
+    type: 3}
+  loadAdOnStart: 1
+--- !u!114 &-5214824818614469835
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abc50fcef1e27a743acd6021318d0395, type: 3}
+  m_Name: Watermelon.DailyDealInitModule
+  m_EditorClassIdentifier: 
+  moduleName: Daily Deal
+  dailyDealDatabase: {fileID: 11400000, guid: f9c8ab6daadc2b74697634e89517ffdc, type: 2}
+--- !u!114 &-4860593260976731516
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23ff0699356174b42bac06cf1c788c14, type: 3}
+  m_Name: Watermelon.SceneLoaderInitModule
+  m_EditorClassIdentifier: 
+  moduleName: Scene Loader
+  loadSceneOnStart: 1
+  firstScene: Menu
+--- !u!114 &-4292943606562708854
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f517638b73f01c34780e6f4e044107a3, type: 3}
+  m_Name: Watermelon.AdsManagerInitModule
+  m_EditorClassIdentifier: 
+  moduleName: Ads Manager
+  settings: {fileID: 0}
+  dummyCanvasPrefab: {fileID: 985655532585203946, guid: f303b4abc46e53847ac7102c2077ea6c,
+    type: 3}
+  loadAdOnStart: 1
+--- !u!114 &-3929948212806193328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34f27d59b0f7fd64bbdece140f4e0eae, type: 3}
+  m_Name: Watermelon.FloatingMessageInitModule
+  m_EditorClassIdentifier: 
+  moduleName: Floating Message
+  canvas: {fileID: 8061296051001136106, guid: 70c84c05a93579246ac20f112340805d, type: 3}
+--- !u!114 &-1674333757863182762
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1ba5788884dbdf46a4ccda9e7b68a89, type: 3}
+  m_Name: Watermelon.AccountInitModule
+  m_EditorClassIdentifier: 
+  moduleName: Account
+--- !u!114 &-988387683347481098
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb0bbbe216b74af43979e68df9d31f51, type: 3}
+  m_Name: Watermelon.CharacterInitModule
+  m_EditorClassIdentifier: 
+  moduleName: Character
+  skinData: {fileID: 11400000, guid: 2920a98a64ca8b140aa8a08c200b5534, type: 2}
+  showLogs: 1
+--- !u!114 &-219136090297714476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5a778ec84d81464787c9884bd3046f0, type: 3}
+  m_Name: Watermelon.AdsManagerInitModule
+  m_EditorClassIdentifier: 
+  moduleName: Ads Manager
+  settings: {fileID: 11400000, guid: 607e412701a54ca41a9110032285eae8, type: 2}
+  dummyCanvasPrefab: {fileID: 985655532585203946, guid: 32b8ebdf0d3105140ab684c15eaebd0b,
+    type: 3}
+  loadAdOnStart: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5a0258cb7d17964493174ceaf8d2867, type: 3}
+  m_Name: Project Init Settings
+  m_EditorClassIdentifier: 
+  initModules:
+  - {fileID: 2341114596217924779}
+  - {fileID: 4761471281170922709}
+  - {fileID: -1674333757863182762}
+  - {fileID: 2949817685844291776}
+  - {fileID: -7583589979712355413}
+  - {fileID: -988387683347481098}
+  - {fileID: -5214824818614469835}
+  - {fileID: -219136090297714476}
+  - {fileID: -5548583586913195279}
+  - {fileID: 3710813683255926274}
+  - {fileID: -3929948212806193328}
+--- !u!114 &197821391346720488
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7214a3fec9d0a024f9e9e3e2f6937f4e, type: 3}
+  m_Name: Watermelon.SceneLoaderInitModule
+  m_EditorClassIdentifier: 
+  moduleName: Scene Loader
+  loadSceneOnStart: 0
+  firstScene: 
+--- !u!114 &2341114596217924779
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63e8aee3fa033774784c3dd89d1fc896, type: 3}
+  m_Name: Watermelon.TweenInitModule
+  m_EditorClassIdentifier: 
+  moduleName: Tween
+  tweensUpdateCount: 300
+  tweensFixedUpdateCount: 30
+  tweensLateUpdateCount: 0
+  enableSystemLogs: 0
+--- !u!114 &2485924204664675424
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e27433fc73d0e094491cb89c195d0cf8, type: 3}
+  m_Name: Watermelon.AudioControllerInitModule
+  m_EditorClassIdentifier: 
+  moduleName: Audio Controller
+  audioSettings: {fileID: 11400000, guid: 503b1ff9b67b4c644b15ce25918d2d63, type: 2}
+  playRandomMusik: 1
+--- !u!114 &2949817685844291776
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8e4e34b37285094ea49b9c1301c78e6, type: 3}
+  m_Name: Watermelon.IAPManagerInitModule
+  m_EditorClassIdentifier: 
+  moduleName: IAP Manager
+  settings: {fileID: 11400000, guid: 8e5e2ae7ac1e6cd4ea51c874ac8b58ed, type: 2}
+  canvas: {fileID: 4428939727153499309, guid: 9ccb3bd803809cc449b332921a7edf6f, type: 3}
+--- !u!114 &3710813683255926274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbdea4f9fd14a6b429ad701a8e0185eb, type: 3}
+  m_Name: Watermelon.AudioControllerInitModule
+  m_EditorClassIdentifier: 
+  moduleName: Audio Controller
+  audioSettings: {fileID: 11400000, guid: 503b1ff9b67b4c644b15ce25918d2d63, type: 2}
+  playRandomMusik: 1
+--- !u!114 &4761471281170922709
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ce12ab9ab914e94cb47d0feef327057, type: 3}
+  m_Name: Watermelon.CurrencyInitModule
+  m_EditorClassIdentifier: 
+  moduleName: Currency
+  gemsSprite: {fileID: 21300000, guid: d4ce5de00760fad44ba2de847b5498fd, type: 3}
+  gemsDisableSprite: {fileID: 21300000, guid: 80a695b7afb19844994cc7c7b53443ee, type: 3}
+  coinsSprite: {fileID: 21300000, guid: e993a4a7df57e3442bc4a7a0196e5d62, type: 3}
+  coinsDisableSprite: {fileID: 21300000, guid: 1b717554b42f7cd4882008475472764f, type: 3}

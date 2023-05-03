@@ -1,0 +1,40 @@
+# =============== #
+# Unity generated #
+# =============== #
+Temp/
+OtherFiles/
+obj/
+UnityGenerated/
+Library/
+Debug/
+Assets/SpineRuntime/spine-unity/Assets/Examples/
+Assets/SpineRuntime/spine-unity/Assets/Examples.meta
+Builds/
+.vs/
+Assets/Test/
+Assets/Test.meta
+Assets/GameData/Test/
+Assets/GameData/Test.meta
+Screenshots/
+
+# ======================= #
+# Visual Studio generated #
+# ======================= #
+
+.vs/
+ExportedObj/
+*.svd
+*.userprefs
+*.csproj
+*.pidb
+*.suo
+*.sln
+*.user
+*.unityproj
+*.booproj
+
+# ======================= #
+# Project spesial         #
+# ======================= #
+
+

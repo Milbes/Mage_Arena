@@ -1,0 +1,284 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6037102139995231432
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 835a47a340fe34b4ebad12dd667a1703, type: 3}
+  m_Name: Staff_03Product003
+  m_EditorClassIdentifier: 
+  id: 3
+  productName: Staff_03
+  cost: 800
+  productCurrency: 0
+  itemID: 5
+--- !u!114 &-4800274432852988754
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 835a47a340fe34b4ebad12dd667a1703, type: 3}
+  m_Name: Staff_04Product004
+  m_EditorClassIdentifier: 
+  id: 4
+  productName: Staff_04
+  cost: 840
+  productCurrency: 0
+  itemID: 6
+--- !u!114 &-4569577069394447641
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 835a47a340fe34b4ebad12dd667a1703, type: 3}
+  m_Name: Necklace_01Product013
+  m_EditorClassIdentifier: 
+  id: 13
+  productName: Necklace_01
+  cost: 1200
+  productCurrency: 0
+  itemID: 35
+--- !u!114 &-4291772337953712034
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 835a47a340fe34b4ebad12dd667a1703, type: 3}
+  m_Name: Staff_08Product008
+  m_EditorClassIdentifier: 
+  id: 8
+  productName: Staff_08
+  cost: 300
+  productCurrency: 1
+  itemID: 10
+--- !u!114 &-4055498244167335255
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 835a47a340fe34b4ebad12dd667a1703, type: 3}
+  m_Name: Gloves_01Product012
+  m_EditorClassIdentifier: 
+  id: 12
+  productName: Gloves_01
+  cost: 700
+  productCurrency: 0
+  itemID: 14
+--- !u!114 &-3235863365148896400
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 835a47a340fe34b4ebad12dd667a1703, type: 3}
+  m_Name: RingProduct010
+  m_EditorClassIdentifier: 
+  id: 10
+  productName: Ring_01
+  cost: 600
+  productCurrency: 0
+  itemID: 27
+--- !u!114 &-824969000144325466
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 835a47a340fe34b4ebad12dd667a1703, type: 3}
+  m_Name: testProduct001
+  m_EditorClassIdentifier: 
+  id: 1
+  productName: Staff_01
+  cost: 740
+  productCurrency: 0
+  itemID: 3
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3b7b3ed57fb46f45b0d2455e847744b, type: 3}
+  m_Name: Daily Deal Database
+  m_EditorClassIdentifier: 
+  products:
+  - {fileID: -824969000144325466}
+  - {fileID: 5167283985869523448}
+  - {fileID: -6037102139995231432}
+  - {fileID: -4800274432852988754}
+  - {fileID: 4479737495582200619}
+  - {fileID: 3074611154465712026}
+  - {fileID: 6055287459109973371}
+  - {fileID: -4291772337953712034}
+  - {fileID: 5432556105186876075}
+  - {fileID: -3235863365148896400}
+  - {fileID: 7413325163345857089}
+  - {fileID: -4055498244167335255}
+  - {fileID: -4569577069394447641}
+--- !u!114 &3074611154465712026
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 835a47a340fe34b4ebad12dd667a1703, type: 3}
+  m_Name: Staff_01Product006
+  m_EditorClassIdentifier: 
+  id: 6
+  productName: Staff_06
+  cost: 860
+  productCurrency: 0
+  itemID: 8
+--- !u!114 &3994211444810153774
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0de7f35c78590a34d9f6c4891240318d, type: 3}
+  m_Name: TestProduct001
+  m_EditorClassIdentifier: 
+  id: 1
+  productName: Test
+  cost: 0
+  productCurrency: 0
+  icon: {fileID: 0}
+  itemID: 0
+--- !u!114 &4076325055596855477
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 835a47a340fe34b4ebad12dd667a1703, type: 3}
+  m_Name: BookProduct008
+  m_EditorClassIdentifier: 
+  id: 0
+  productName: 
+  cost: 0
+  productCurrency: 0
+  itemID: 0
+--- !u!114 &4479737495582200619
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 835a47a340fe34b4ebad12dd667a1703, type: 3}
+  m_Name: Staff_05Product005
+  m_EditorClassIdentifier: 
+  id: 5
+  productName: Staff_05
+  cost: 620
+  productCurrency: 0
+  itemID: 7
+--- !u!114 &5167283985869523448
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 835a47a340fe34b4ebad12dd667a1703, type: 3}
+  m_Name: Staff_02Product002
+  m_EditorClassIdentifier: 
+  id: 2
+  productName: Staff_02
+  cost: 690
+  productCurrency: 0
+  itemID: 4
+--- !u!114 &5432556105186876075
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 835a47a340fe34b4ebad12dd667a1703, type: 3}
+  m_Name: Staff_09Product009
+  m_EditorClassIdentifier: 
+  id: 9
+  productName: Staff_09
+  cost: 360
+  productCurrency: 1
+  itemID: 11
+--- !u!114 &6055287459109973371
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 835a47a340fe34b4ebad12dd667a1703, type: 3}
+  m_Name: Staff_07Product007
+  m_EditorClassIdentifier: 
+  id: 7
+  productName: Staff_07
+  cost: 250
+  productCurrency: 1
+  itemID: 9
+--- !u!114 &7413325163345857089
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 835a47a340fe34b4ebad12dd667a1703, type: 3}
+  m_Name: Book_01Product011
+  m_EditorClassIdentifier: 
+  id: 11
+  productName: Book_01
+  cost: 600
+  productCurrency: 0
+  itemID: 22

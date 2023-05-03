@@ -1,0 +1,21 @@
+v2.0.5
+Core update
+
+v2.0.4
+Setup Guide update
+Multilanguage update
+
+v2.0.3
+Updated SmartSelection | renamed context menu
+
+v2.0.2
+Added Validator
+Fixed EditorCoroutine
+NativeAudio removed from AudioController
+
+v2.0.1
+Added Smart Selector
+
+v2.0.0
+Changed prototype structure
+Added Watermelon namespace to all classes

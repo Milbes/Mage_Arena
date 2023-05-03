@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e33231fbbda8f041b7b739ffa1db982, type: 3}
+  m_Name: Stun Tornado Ability
+  m_EditorClassIdentifier: 
+  name: "Stun \nTornado"
+  description: Stun Tornado
+  icon: {fileID: 21300000, guid: e4ee07d6f7f52dd41a18d4ba01d8726f, type: 3}
+  orbType: 0
+  maxStackAmount: 3
+  activateOnPlay: 0
+  devTier: 3
+  stunTornadoInfo:
+  - duration: 2
+    chance: 0.1
+  - duration: 3
+    chance: 0.15
+  - duration: 4
+    chance: 0.2
+  stunParticle: {fileID: 7734768378362131787, guid: c3c7fe3baca6def46bd97d7b4bfa0f09,
+    type: 3}

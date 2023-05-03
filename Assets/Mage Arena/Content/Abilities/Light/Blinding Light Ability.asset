@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70e237ee86652f846a51f67f265506f9, type: 3}
+  m_Name: Blinding Light Ability
+  m_EditorClassIdentifier: 
+  name: "Blinding \nLight"
+  description: Blinding Light
+  icon: {fileID: 21300000, guid: d1eb55731cfddc541b65d86ad3a88293, type: 3}
+  orbType: 3
+  maxStackAmount: 3
+  activateOnPlay: 0
+  devTier: 3
+  info:
+  - chance: 1
+    duration: 2
+  - chance: 0.3
+    duration: 3
+  - chance: 1
+    duration: 4
+  particleObject: {fileID: 6108548387312254179, guid: f9e8fb77e54a59140a803ba9afb3bb0f,
+    type: 3}

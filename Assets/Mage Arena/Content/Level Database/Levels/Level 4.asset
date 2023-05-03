@@ -1,0 +1,843 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a592e481f9afb04c9b319bd9281715d, type: 3}
+  m_Name: Level 4
+  m_EditorClassIdentifier: 
+  rooms:
+  - size: {x: 11, y: 31}
+    obstacles:
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 2, y: 14}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 3, y: 14}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 4, y: 14}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 5, y: 14}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 6, y: 14}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 7, y: 14}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 8, y: 14}
+      angle: 0
+    enemies:
+    - enemy: {fileID: 11400000, guid: 6a8f9b27f8f47674c9998473af523ba2, type: 2}
+      position: {x: 2, y: 11}
+      angle: 0
+    - enemy: {fileID: 11400000, guid: 6a8f9b27f8f47674c9998473af523ba2, type: 2}
+      position: {x: 8, y: 22}
+      angle: 0
+    - enemy: {fileID: 11400000, guid: ad312f3631444d84a8089ea12310fff2, type: 2}
+      position: {x: 8, y: 11}
+      angle: 0
+    - enemy: {fileID: 11400000, guid: ad312f3631444d84a8089ea12310fff2, type: 2}
+      position: {x: 2, y: 22}
+      angle: 0
+    - enemy: {fileID: 11400000, guid: 2197a0677646d3647adfa5c82f8238a8, type: 2}
+      position: {x: 3, y: 17}
+      angle: 0
+    isBossRoom: 0
+  - size: {x: 11, y: 31}
+    obstacles:
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 2, y: 24}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 5, y: 21}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 8, y: 18}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 5, y: 15}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 2, y: 12}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 7, y: 11}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 8, y: 12}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 7, y: 12}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 8, y: 11}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 8, y: 24}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 7, y: 24}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 8, y: 25}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 7, y: 25}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 1, y: 13}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 1, y: 12}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 1, y: 11}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 0, y: 11}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 0, y: 13}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 0, y: 12}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 1, y: 25}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 1, y: 24}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 1, y: 23}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 0, y: 25}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 0, y: 24}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 0, y: 23}
+      angle: 0
+    enemies:
+    - enemy: {fileID: 11400000, guid: 2197a0677646d3647adfa5c82f8238a8, type: 2}
+      position: {x: 6, y: 29}
+      angle: 0
+    - enemy: {fileID: 11400000, guid: 00d91ca32e1c4964b924eca83ffa6aee, type: 2}
+      position: {x: 5, y: 24}
+      angle: 0
+    - enemy: {fileID: 11400000, guid: 00d91ca32e1c4964b924eca83ffa6aee, type: 2}
+      position: {x: 8, y: 21}
+      angle: 0
+    - enemy: {fileID: 11400000, guid: 6a8f9b27f8f47674c9998473af523ba2, type: 2}
+      position: {x: 2, y: 18}
+      angle: 0
+    isBossRoom: 0
+  - size: {x: 11, y: 31}
+    obstacles:
+    - obstacle: {fileID: 11400000, guid: 6fe4a4906ce2e534a934c8b05fc65ed5, type: 2}
+      position: {x: 1, y: 25}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 6fe4a4906ce2e534a934c8b05fc65ed5, type: 2}
+      position: {x: 5, y: 25}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 6fe4a4906ce2e534a934c8b05fc65ed5, type: 2}
+      position: {x: 9, y: 25}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 6fe4a4906ce2e534a934c8b05fc65ed5, type: 2}
+      position: {x: 9, y: 17}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 6fe4a4906ce2e534a934c8b05fc65ed5, type: 2}
+      position: {x: 9, y: 21}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 6fe4a4906ce2e534a934c8b05fc65ed5, type: 2}
+      position: {x: 9, y: 9}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 6fe4a4906ce2e534a934c8b05fc65ed5, type: 2}
+      position: {x: 5, y: 9}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 6fe4a4906ce2e534a934c8b05fc65ed5, type: 2}
+      position: {x: 9, y: 13}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 6fe4a4906ce2e534a934c8b05fc65ed5, type: 2}
+      position: {x: 1, y: 17}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 6fe4a4906ce2e534a934c8b05fc65ed5, type: 2}
+      position: {x: 1, y: 9}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 6fe4a4906ce2e534a934c8b05fc65ed5, type: 2}
+      position: {x: 1, y: 13}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 6fe4a4906ce2e534a934c8b05fc65ed5, type: 2}
+      position: {x: 1, y: 21}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 0, y: 11}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 0, y: 15}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 0, y: 19}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 0, y: 23}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 10, y: 11}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 10, y: 15}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 10, y: 19}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 10, y: 23}
+      angle: 0
+    enemies:
+    - enemy: {fileID: 11400000, guid: ad312f3631444d84a8089ea12310fff2, type: 2}
+      position: {x: 3, y: 12}
+      angle: 0
+    - enemy: {fileID: 11400000, guid: 2197a0677646d3647adfa5c82f8238a8, type: 2}
+      position: {x: 3, y: 23}
+      angle: 0
+    - enemy: {fileID: 11400000, guid: 2197a0677646d3647adfa5c82f8238a8, type: 2}
+      position: {x: 7, y: 12}
+      angle: 0
+    - enemy: {fileID: 11400000, guid: ad312f3631444d84a8089ea12310fff2, type: 2}
+      position: {x: 5, y: 18}
+      angle: 0
+    - enemy: {fileID: 11400000, guid: ad312f3631444d84a8089ea12310fff2, type: 2}
+      position: {x: 7, y: 23}
+      angle: 0
+    isBossRoom: 0
+  - size: {x: 11, y: 31}
+    obstacles:
+    - obstacle: {fileID: 11400000, guid: 6fe4a4906ce2e534a934c8b05fc65ed5, type: 2}
+      position: {x: 0, y: 15}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 6fe4a4906ce2e534a934c8b05fc65ed5, type: 2}
+      position: {x: 0, y: 26}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 6fe4a4906ce2e534a934c8b05fc65ed5, type: 2}
+      position: {x: 10, y: 26}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 6fe4a4906ce2e534a934c8b05fc65ed5, type: 2}
+      position: {x: 0, y: 4}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 6fe4a4906ce2e534a934c8b05fc65ed5, type: 2}
+      position: {x: 10, y: 4}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 6fe4a4906ce2e534a934c8b05fc65ed5, type: 2}
+      position: {x: 10, y: 15}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 5, y: 10}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 6, y: 10}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 6, y: 9}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 5, y: 9}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 4, y: 9}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 4, y: 10}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 5, y: 20}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 6, y: 20}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 6, y: 21}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 5, y: 21}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 4, y: 21}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 4, y: 20}
+      angle: 0
+    enemies:
+    - enemy: {fileID: 11400000, guid: 2197a0677646d3647adfa5c82f8238a8, type: 2}
+      position: {x: 1, y: 9}
+      angle: 0
+    - enemy: {fileID: 11400000, guid: 2197a0677646d3647adfa5c82f8238a8, type: 2}
+      position: {x: 9, y: 21}
+      angle: 0
+    - enemy: {fileID: 11400000, guid: ad312f3631444d84a8089ea12310fff2, type: 2}
+      position: {x: 1, y: 21}
+      angle: 0
+    - enemy: {fileID: 11400000, guid: ad312f3631444d84a8089ea12310fff2, type: 2}
+      position: {x: 9, y: 9}
+      angle: 0
+    - enemy: {fileID: 11400000, guid: 6a8f9b27f8f47674c9998473af523ba2, type: 2}
+      position: {x: 5, y: 15}
+      angle: 0
+    isBossRoom: 0
+  - size: {x: 11, y: 31}
+    obstacles:
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 2, y: 19}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 1, y: 17}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 2, y: 16}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 1, y: 19}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 1, y: 14}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 2, y: 18}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 1, y: 15}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 2, y: 15}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 2, y: 17}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 2, y: 14}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 1, y: 16}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 1, y: 18}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 9, y: 16}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 8, y: 16}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 8, y: 17}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 9, y: 17}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 9, y: 15}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 9, y: 14}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 9, y: 18}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 9, y: 19}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 8, y: 15}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 8, y: 14}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 8, y: 18}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 8, y: 19}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 2, y: 8}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 8, y: 8}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 3, y: 8}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 4, y: 8}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 6, y: 8}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 5, y: 8}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 7, y: 8}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 1, y: 22}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 2, y: 22}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 3, y: 22}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 7, y: 22}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 8, y: 22}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 9, y: 22}
+      angle: 0
+    enemies:
+    - enemy: {fileID: 11400000, guid: 6a8f9b27f8f47674c9998473af523ba2, type: 2}
+      position: {x: 5, y: 14}
+      angle: 0
+    - enemy: {fileID: 11400000, guid: fbb989c3c95473c4bb1e6229d7cec145, type: 2}
+      position: {x: 5, y: 11}
+      angle: 0
+    - enemy: {fileID: 11400000, guid: a983f0f10f9b92a4b98a9a7615254e20, type: 2}
+      position: {x: 2, y: 25}
+      angle: 0
+    - enemy: {fileID: 11400000, guid: a983f0f10f9b92a4b98a9a7615254e20, type: 2}
+      position: {x: 9, y: 25}
+      angle: 0
+    isBossRoom: 0
+  - size: {x: 11, y: 31}
+    obstacles:
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 4, y: 25}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 4, y: 24}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 4, y: 26}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 5, y: 26}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 5, y: 25}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 6, y: 26}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 5, y: 24}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 6, y: 25}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 6, y: 24}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 4, y: 17}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 5, y: 17}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 6, y: 17}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 4, y: 18}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 5, y: 18}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 6, y: 18}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 4, y: 19}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 5, y: 19}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 6, y: 19}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 4, y: 23}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 4, y: 22}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 5, y: 23}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 6, y: 23}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 5, y: 21}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 5, y: 20}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 5, y: 22}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 4, y: 20}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 4, y: 21}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 6, y: 20}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 6, y: 21}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 6, y: 22}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 1, y: 13}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 2, y: 13}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 1, y: 12}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 2, y: 12}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 8, y: 13}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 9, y: 13}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 9, y: 12}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 8, y: 12}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 6fe4a4906ce2e534a934c8b05fc65ed5, type: 2}
+      position: {x: 4, y: 12}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 6fe4a4906ce2e534a934c8b05fc65ed5, type: 2}
+      position: {x: 5, y: 12}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 6fe4a4906ce2e534a934c8b05fc65ed5, type: 2}
+      position: {x: 6, y: 12}
+      angle: 0
+    enemies:
+    - enemy: {fileID: 11400000, guid: 00d91ca32e1c4964b924eca83ffa6aee, type: 2}
+      position: {x: 8, y: 19}
+      angle: 0
+    - enemy: {fileID: 11400000, guid: 00d91ca32e1c4964b924eca83ffa6aee, type: 2}
+      position: {x: 2, y: 19}
+      angle: 0
+    - enemy: {fileID: 11400000, guid: a983f0f10f9b92a4b98a9a7615254e20, type: 2}
+      position: {x: 5, y: 28}
+      angle: 0
+    - enemy: {fileID: 11400000, guid: 2197a0677646d3647adfa5c82f8238a8, type: 2}
+      position: {x: 2, y: 23}
+      angle: 0
+    - enemy: {fileID: 11400000, guid: 2197a0677646d3647adfa5c82f8238a8, type: 2}
+      position: {x: 8, y: 23}
+      angle: 0
+    isBossRoom: 0
+  - size: {x: 11, y: 31}
+    obstacles:
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 6, y: 11}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 6, y: 10}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 6, y: 9}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 6, y: 8}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 7, y: 8}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 8, y: 8}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 9, y: 8}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 10, y: 8}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 4, y: 25}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 4, y: 24}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 4, y: 23}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 4, y: 22}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 0, y: 22}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 1, y: 22}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 2, y: 22}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 3, y: 22}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 6, y: 17}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 5, y: 17}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 4, y: 17}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 5, y: 18}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 6, y: 18}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 4, y: 18}
+      angle: 0
+    enemies:
+    - enemy: {fileID: 11400000, guid: 2197a0677646d3647adfa5c82f8238a8, type: 2}
+      position: {x: 1, y: 25}
+      angle: 0
+    - enemy: {fileID: 11400000, guid: 2197a0677646d3647adfa5c82f8238a8, type: 2}
+      position: {x: 9, y: 11}
+      angle: 0
+    - enemy: {fileID: 11400000, guid: ad312f3631444d84a8089ea12310fff2, type: 2}
+      position: {x: 1, y: 18}
+      angle: 0
+    - enemy: {fileID: 11400000, guid: ad312f3631444d84a8089ea12310fff2, type: 2}
+      position: {x: 9, y: 18}
+      angle: 0
+    - enemy: {fileID: 11400000, guid: 00d91ca32e1c4964b924eca83ffa6aee, type: 2}
+      position: {x: 8, y: 23}
+      angle: 0
+    isBossRoom: 0
+  - size: {x: 11, y: 31}
+    obstacles:
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 3, y: 27}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 2, y: 26}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 3, y: 25}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 4, y: 26}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 8, y: 21}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 7, y: 20}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 9, y: 20}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 8, y: 19}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 3, y: 15}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 4, y: 14}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 2, y: 14}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 3, y: 13}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 8, y: 9}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 7, y: 8}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 9, y: 8}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 8, y: 7}
+      angle: 0
+    enemies:
+    - enemy: {fileID: 11400000, guid: a983f0f10f9b92a4b98a9a7615254e20, type: 2}
+      position: {x: 3, y: 20}
+      angle: 0
+    - enemy: {fileID: 11400000, guid: a983f0f10f9b92a4b98a9a7615254e20, type: 2}
+      position: {x: 8, y: 14}
+      angle: 0
+    - enemy: {fileID: 11400000, guid: 2197a0677646d3647adfa5c82f8238a8, type: 2}
+      position: {x: 8, y: 26}
+      angle: 0
+    isBossRoom: 0
+  - size: {x: 11, y: 31}
+    obstacles:
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 4, y: 19}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 5, y: 19}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 6, y: 19}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 5, y: 18}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 5, y: 20}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 5, y: 11}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 5, y: 10}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 5, y: 9}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 4, y: 10}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+      position: {x: 6, y: 10}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 3, y: 5}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 3, y: 2}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 3, y: 3}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 3, y: 4}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 7, y: 5}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 7, y: 4}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 7, y: 3}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 7, y: 2}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 6, y: 5}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 5, y: 5}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 4, y: 5}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 3, y: 28}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 5, y: 25}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 3, y: 27}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 3, y: 26}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 3, y: 25}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 6, y: 25}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 7, y: 25}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 7, y: 27}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 4, y: 25}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 7, y: 26}
+      angle: 0
+    - obstacle: {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+      position: {x: 7, y: 28}
+      angle: 0
+    enemies:
+    - enemy: {fileID: 11400000, guid: a983f0f10f9b92a4b98a9a7615254e20, type: 2}
+      position: {x: 5, y: 22}
+      angle: 0
+    - enemy: {fileID: 11400000, guid: a983f0f10f9b92a4b98a9a7615254e20, type: 2}
+      position: {x: 2, y: 13}
+      angle: 0
+    - enemy: {fileID: 11400000, guid: 00d91ca32e1c4964b924eca83ffa6aee, type: 2}
+      position: {x: 5, y: 28}
+      angle: 0
+    - enemy: {fileID: 11400000, guid: 00d91ca32e1c4964b924eca83ffa6aee, type: 2}
+      position: {x: 9, y: 13}
+      angle: 0
+    isBossRoom: 0
+  - size: {x: 11, y: 25}
+    obstacles: []
+    enemies:
+    - enemy: {fileID: 11400000, guid: 6644ddb49e2ce864b8505468db80a3f7, type: 2}
+      position: {x: 5, y: 22}
+      angle: 0
+    - enemy: {fileID: 11400000, guid: 00d91ca32e1c4964b924eca83ffa6aee, type: 2}
+      position: {x: 3, y: 20}
+      angle: 0
+    - enemy: {fileID: 11400000, guid: 00d91ca32e1c4964b924eca83ffa6aee, type: 2}
+      position: {x: 7, y: 20}
+      angle: 0
+    isBossRoom: 1
+  environmentSkin: {fileID: 3066894334800336990, guid: d6aec040de844e44887662cdde3c5af7,
+    type: 3}
+  healthMultiplier: 1
+  damageMultiplier: 1
+  coinMultiplier: 1

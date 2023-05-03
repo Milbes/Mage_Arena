@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb94cfa7eee95784fa83956ec2aebf8d, type: 3}
+  m_Name: Evil Mage Data
+  m_EditorClassIdentifier: 
+  health: 1500
+  bodyDamage: 100
+  speed: 4
+  coinsAmount: 10
+  shootAudio: {fileID: 8300000, guid: 0ad26c1a3b3177d4cac49ef6de76d4da, type: 3}
+  deathAudio: {fileID: 8300000, guid: 96bbf34d7aee725449bb8a5f1a46bfbb, type: 3}
+  idleDuration: 0.5
+  simpleAttackAudio: {fileID: 8300000, guid: 7f7ab4dbdd708cd4c9adb5a1fda40402, type: 3}
+  meteorAttackAudio: {fileID: 8300000, guid: 3d4cbb19342dfed448a58ab21bc003d6, type: 3}
+  meteorProjectile: {fileID: 11400000, guid: 1f937fc816f4cef409f2b1d25af2ec2c, type: 2}
+  simpleProjectile: {fileID: 11400000, guid: 708423c62c536e54bb7c30fb969c6f1e, type: 2}
+  firstProjectileDamage: 50
+  secondProjectileDamage: 30
+  clonesHealth: 100
+  teleportationParticleObject: {fileID: 133642, guid: 721ed883392764d42a3957861e7752c0,
+    type: 3}
+  durationBeforeExplosion: 2
+  durationExplosion: 1
+  explosionDamage:
+  - type: 3
+    amount: 50
+    isCrit: 0

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f165812a0ad794f41956242414ed952e, type: 3}
+  m_Name: Shadow Attack Ability
+  m_EditorClassIdentifier: 
+  name: Shadow Attack
+  description: Shadow Attack
+  icon: {fileID: 21300000, guid: 89b3fcccaf9fb8943b0d6a58bef3a0dc, type: 3}
+  orbType: 1
+  maxStackAmount: 3
+  activateOnPlay: 0
+  devTier: 3
+  hitParticle: {fileID: 1598238342673070388, guid: aabe5be9c2991784fb85e6f963a87911,
+    type: 3}
+  hitSound: {fileID: 8300000, guid: 4e9bff56ee93c6f42b214141e44e763d, type: 3}
+  initialShadowDamage:
+  - 0.4
+  - 0.6
+  - 0.8
+  explosionParticle: {fileID: 3373940830471882490, guid: 5d87435ec7ec0a34aba1dcfa276aab27,
+    type: 3}
+  markParticke: {fileID: 1419681939804435218, guid: d1871d1d06086f44ebd5783d7d149bec,
+    type: 3}
+  explosionSound: {fileID: 8300000, guid: e0f8074327731a947b02c18d90cc7085, type: 3}
+  explosionRadius: 4
+  particleScale: 0.5
+  explosionDamage: 1

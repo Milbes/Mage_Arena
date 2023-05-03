@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c62aaeab97abe24db3a7de6475c2be5, type: 3}
+  m_Name: Ads Settings
+  m_EditorClassIdentifier: 
+  bannerType: 0
+  interstitialType: 0
+  rewardedVideoType: 2
+  adMobContainer:
+    androidBannerID: 
+    IOSBannerID: 
+    androidInterstitialID: 
+    IOSInterstitialID: 
+    androidRewardedVideoID: ca-app-pub-2409463348573709/5899489550
+    IOSRewardedVideoID: ca-app-pub-2409463348573709/8219558802
+    bannerType: 0
+    bannerPosition: 0
+  unityAdsContainer:
+    androidAppID: 1234567
+    IOSAppID: 1234567
+    androidBannerID: banner
+    IOSBannerID: banner
+    androidInterstitialID: video
+    IOSInterstitialID: video
+    androidRewardedVideoID: rewardedVideo
+    IOSRewardedVideoID: rewardedVideo
+    bannerPosition: 4
+  dummyContainer:
+    bannerPosition: 0
+  gdprContainer:
+    enableGDPR: 0
+    privacyLink: 
+    termsOfUseLink: 
+  adsFrequency:
+    insterstitialFirstDelay: 0
+    interstitialShowingDelay: 0
+  testMode: 0
+  systemLogs: 1

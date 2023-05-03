@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67898b92dc879474da4758ef17329c66, type: 3}
+  m_Name: Player Projectile 1 Violet
+  m_EditorClassIdentifier: 
+  speed: 30
+  distance: 200
+  damage: 120
+  canPassObstacles: 0
+  isAOE: 0
+  radius: 0
+  prefabRefference: {fileID: 1155009748367258688, guid: 0c29baae15cbb8d4eb6d8ecd4a84da9c,
+    type: 3}
+  particleSpawnProjectile: {fileID: 8330301041256658859, guid: 2307c20583847d84190ccc167e5890f0,
+    type: 3}
+  spawnSound: {fileID: 8300000, guid: cfbe238df59104a60a9825a34cd8e6d4, type: 3}
+  hitAudio: {fileID: 8300000, guid: 96fb0d69d3b5a42b48e96f51417fb54b, type: 3}
+  criticalHitAudio: {fileID: 8300000, guid: c1cb0987e12b24343b3f166cb6005a3b, type: 3}
+  obstacleHitSound: {fileID: 8300000, guid: 3461db4084def499b91b557d09af6437, type: 3}

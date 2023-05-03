@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c5f24e2522f09e46a2902725b9d42e0, type: 3}
+  m_Name: Audio Settings
+  m_EditorClassIdentifier: 
+  musicAudioClips:
+  - {fileID: 8300000, guid: 3652da4c1f5449841b5af7b612e129a7, type: 3}
+  sounds:
+    buttonSound: {fileID: 8300000, guid: 4769c4cb7c647fb4fb4b358b604f87aa, type: 3}
+    cloudSound: {fileID: 8300000, guid: 23cfdff633bb2e4479b054bf2fee0fcc, type: 3}
+    collectSound: {fileID: 8300000, guid: 2691bc0ca3af17a40a236eb4399d7847, type: 3}
+    pageSwipeSound: {fileID: 8300000, guid: 28ae2109ff2e2494e88fa95fb5c1ed2b, type: 3}
+    windowOpenSound: {fileID: 8300000, guid: 04b539399eeafdb4aab6e084c0b1cf03, type: 3}
+    windowCloseSound: {fileID: 8300000, guid: 15fb27f62250b25458e5be4621f6b486, type: 3}
+    chestPlaceSound: {fileID: 8300000, guid: eb896cef88291b642aba0bed58910f75, type: 3}
+    chestOpenSound: {fileID: 8300000, guid: 565798e0229056c4b9cf221f9c8f3b95, type: 3}
+    chestShiningSound: {fileID: 8300000, guid: 87a379d33854cb9459ba0436cc11a264, type: 3}
+  vibrations:
+    shortVibration: 0
+    longVibration: 0
+  isMusicEnabled: 1
+  isAudioEnabled: 1
+  isVibrationEnabled: 1

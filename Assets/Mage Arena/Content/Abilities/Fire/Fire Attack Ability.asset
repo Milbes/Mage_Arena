@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18d68523faefeff4b9292723618d79c5, type: 3}
+  m_Name: Fire Attack Ability
+  m_EditorClassIdentifier: 
+  name: Fire Shot
+  description: Fire Attack
+  icon: {fileID: 21300000, guid: cf6fa6c0a5fc1184a9a28035c8e6d751, type: 3}
+  orbType: 2
+  maxStackAmount: 3
+  activateOnPlay: 0
+  devTier: 3
+  hitParticle: {fileID: 7787676389226710185, guid: 7bbd2efc92cabe94f95919fe5b9f1a16,
+    type: 3}
+  hitSound: {fileID: 8300000, guid: 4e9bff56ee93c6f42b214141e44e763d, type: 3}
+  explosionParticle: {fileID: 3132923916173227010, guid: e1d3a25bbcb0f47429ab9974c8d9a8a4,
+    type: 3}
+  explosionSound: {fileID: 8300000, guid: 64fb9477894fa2e4a997518fbb1c2f15, type: 3}
+  initialFireDamage:
+  - 0.4
+  - 0.6
+  - 0.8
+  burningDamagePerTick:
+  - 0.2
+  - 0.3
+  - 0.4
+  ticksAmount: 030000000400000005000000
+  explosionRadius: 3
+  affectedEnemiesDamagePerTick: 0.5
+  explosionEffectTicks: 5

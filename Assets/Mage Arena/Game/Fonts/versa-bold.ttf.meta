@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 407a01c85571f42438c261811d978677
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Versa-Bold
+  fontNames:
+  - Versa-Bold
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 407a01c85571f42438c261811d978677, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

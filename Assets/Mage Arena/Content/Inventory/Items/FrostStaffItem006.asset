@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58fb61df82046d0428e26a9b12051808, type: 3}
+  m_Name: FrostStaffItem006
+  m_EditorClassIdentifier: 
+  id: 6
+  itemName: Frost Staff
+  description: 
+  sprite: {fileID: 21300000, guid: e0c778bc27382444bba9076223224920, type: 3}
+  allowedItemRarity: -1
+  weaponPrefab: {fileID: 7590383131375618471, guid: 44ecb8926a1accf42beb081ae56b7c66,
+    type: 3}
+  hitAudio: {fileID: 8300000, guid: 6886729543d1bbe4db63930507c0ef19, type: 3}
+  stats:
+    health: 0
+    healthPercent: 0
+    damage: 6.8
+    damagePercent: 0
+    critChance: 0
+    critDamagePercent: 0
+    movementSpeed: 0
+    attackSpeed: 0
+    armor: 0
+    evasionChance: 0
+    fireDamage:
+      magicType: 1
+      value: 0
+    fireResistance:
+      magicType: 1
+      value: 0
+    fireEffectMultiplier:
+      magicType: 1
+      value: 0
+    stormDamage:
+      magicType: 2
+      value: 0
+    stormResistance:
+      magicType: 2
+      value: 0
+    stormEffectMultiplier:
+      magicType: 2
+      value: 0
+    shadowDamage:
+      magicType: 3
+      value: 0
+    shadowResistance:
+      magicType: 3
+      value: 0
+    shadowEffectMultiplier:
+      magicType: 3
+      value: 0
+    iceDamage:
+      magicType: 4
+      value: 44
+    iceResistance:
+      magicType: 4
+      value: 0
+    iceEffectMultiplier:
+      magicType: 4
+      value: 0
+  hitReloadTime: 0
+  minItemLevel: 1
+  maxItemLevel: 999
+  itemSpecialEffects: []

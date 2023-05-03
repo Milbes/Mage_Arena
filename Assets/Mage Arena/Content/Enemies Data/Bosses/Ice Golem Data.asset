@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 743593667e62a954aa2725daf8abd805, type: 3}
+  m_Name: Ice Golem Data
+  m_EditorClassIdentifier: 
+  health: 2000
+  bodyDamage: 100
+  speed: 15
+  coinsAmount: 20
+  shootAudio: {fileID: 0}
+  deathAudio: {fileID: 8300000, guid: 96bbf34d7aee725449bb8a5f1a46bfbb, type: 3}
+  spikeProjectile: {fileID: 11400000, guid: 9891d221a3b0003469350e9ae25a7685, type: 2}
+  spikeProjectileDamage: 50
+  groundProjectile: {fileID: 11400000, guid: 11104a3f45c126b4dabc981a9b6a9ad5, type: 2}
+  groundProjectileDamage: 75
+  idleDuration: 1.5
+  projectileArrackAudio: {fileID: 8300000, guid: 0ad26c1a3b3177d4cac49ef6de76d4da,
+    type: 3}
+  stonesAttackAudio: {fileID: 8300000, guid: 890b81297f80955479e4045950cf024a, type: 3}

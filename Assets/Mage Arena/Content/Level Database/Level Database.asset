@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dca25f57d71ed64285816338fac30b3, type: 3}
+  m_Name: Level Database
+  m_EditorClassIdentifier: 
+  levels:
+  - {fileID: 11400000, guid: db697359efa0cc44a9a90cad651725f4, type: 2}
+  - {fileID: 11400000, guid: 503c9fcf4e9d5264bb32ffa0fcee674a, type: 2}
+  - {fileID: 11400000, guid: a602774235d533947888ee9b162a3592, type: 2}
+  - {fileID: 11400000, guid: 1ad212a92534d2a48ad5488200ab3e92, type: 2}
+  - {fileID: 11400000, guid: 040b90b644cc0c547b3bc6120f737481, type: 2}
+  - {fileID: 11400000, guid: 07c2f0850b58dd44d930d1a6ff545d4f, type: 2}
+  - {fileID: 11400000, guid: ab7769db410d14c41acda950703385ae, type: 2}
+  - {fileID: 11400000, guid: 22643e90d98db434ab326898da2fcdf4, type: 2}
+  - {fileID: 11400000, guid: aae698065ae603d4d9fabbd749648d41, type: 2}
+  - {fileID: 11400000, guid: cfe7e1185f22c1040b0271d5538854f4, type: 2}
+  enemies:
+  - {fileID: 11400000, guid: a983f0f10f9b92a4b98a9a7615254e20, type: 2}
+  - {fileID: 11400000, guid: fbb989c3c95473c4bb1e6229d7cec145, type: 2}
+  - {fileID: 11400000, guid: 00d91ca32e1c4964b924eca83ffa6aee, type: 2}
+  - {fileID: 11400000, guid: 2197a0677646d3647adfa5c82f8238a8, type: 2}
+  - {fileID: 11400000, guid: ad312f3631444d84a8089ea12310fff2, type: 2}
+  - {fileID: 11400000, guid: 6a8f9b27f8f47674c9998473af523ba2, type: 2}
+  - {fileID: 11400000, guid: 6644ddb49e2ce864b8505468db80a3f7, type: 2}
+  - {fileID: 11400000, guid: 7ce3eae6f1a5ffc46bd5ea0bd3664276, type: 2}
+  - {fileID: 11400000, guid: 0e3340acd6dfe904aa46a42b3e5f7ecd, type: 2}
+  - {fileID: 11400000, guid: e96eaeadebaf4914abb9cd4140273256, type: 2}
+  - {fileID: 11400000, guid: cc620c3a50b8e1844a4e8e00255b0a4b, type: 2}
+  obstacles:
+  - {fileID: 11400000, guid: ea0e1e998318d03489127dcff0ce1e79, type: 2}
+  - {fileID: 11400000, guid: 6fe4a4906ce2e534a934c8b05fc65ed5, type: 2}
+  - {fileID: 11400000, guid: 43fd8246cb7bed94f8711361f83d1df1, type: 2}
+  placeholderTexture: {fileID: 2800000, guid: 72244495ed0860443ad0b8b7a462b62c, type: 3}
+  greenTexture: {fileID: 2800000, guid: 66c13cad4de388840a66500ccc773449, type: 3}
+  redTexture: {fileID: 2800000, guid: 998847950e9792342bb72183cf2c5362, type: 3}
+  itemBackgroundTexture: {fileID: 2800000, guid: 72244495ed0860443ad0b8b7a462b62c,
+    type: 3}

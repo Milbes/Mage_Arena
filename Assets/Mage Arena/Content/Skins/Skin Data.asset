@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e3a969437ff164419e6e89c48cbb702, type: 3}
+  m_Name: Skin Data
+  m_EditorClassIdentifier: 
+  id: 0
+  initialStats:
+    health: 250
+    healthPercent: 0
+    damage: 40
+    damagePercent: 0
+    critChance: 85
+    critDamagePercent: 300
+    movementSpeed: 6
+    attackSpeed: 0.82
+    armor: 5
+    evasionChance: 1
+    fireDamage:
+      magicType: 1
+      value: 0
+    fireResistance:
+      magicType: 1
+      value: 0
+    fireEffectMultiplier:
+      magicType: 1
+      value: 0
+    stormDamage:
+      magicType: 2
+      value: 0
+    stormResistance:
+      magicType: 2
+      value: 0
+    stormEffectMultiplier:
+      magicType: 2
+      value: 0
+    shadowDamage:
+      magicType: 3
+      value: 0
+    shadowResistance:
+      magicType: 3
+      value: 0
+    shadowEffectMultiplier:
+      magicType: 3
+      value: 0
+    iceDamage:
+      magicType: 4
+      value: 0
+    iceResistance:
+      magicType: 4
+      value: 0
+    iceEffectMultiplier:
+      magicType: 4
+      value: 0
+  upgrades:
+  - health: 30
+    healthPercent: 0
+    damage: 9
+    damagePercent: 0
+    critChance: 0
+    critDamagePercent: 0
+    movementSpeed: 0
+    attackSpeed: 0
+    armor: 0
+    evasionChance: 0
+    fireDamage:
+      magicType: 1
+      value: 0
+    fireResistance:
+      magicType: 1
+      value: 0
+    fireEffectMultiplier:
+      magicType: 1
+      value: 0
+    stormDamage:
+      magicType: 2
+      value: 0
+    stormResistance:
+      magicType: 2
+      value: 0
+    stormEffectMultiplier:
+      magicType: 2
+      value: 0
+    shadowDamage:
+      magicType: 3
+      value: 0
+    shadowResistance:
+      magicType: 3
+      value: 0
+    shadowEffectMultiplier:
+      magicType: 3
+      value: 0
+    iceDamage:
+      magicType: 4
+      value: 0
+    iceResistance:
+      magicType: 4
+      value: 0
+    iceEffectMultiplier:
+      magicType: 4
+      value: 0
+    cost: 100
+    requiredItemsCount: 1
+  stepDelay: 0.3
+  stepSound: {fileID: 8300000, guid: 6389e1d89d041ae479898548c1920952, type: 3}
+  deathSound: {fileID: 8300000, guid: 24d5bdce61d57f54c859cd98ffebb41d, type: 3}
+  resurrectSound: {fileID: 8300000, guid: d759670572ecff84aab305c8d531233a, type: 3}

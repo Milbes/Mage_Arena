@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6840e1d09f1e2d74bb3ffb3be974eb51, type: 3}
+  m_Name: Ability Database
+  m_EditorClassIdentifier: 
+  abilities:
+  - {fileID: 11400000, guid: 0362661b0082fd84f8714b4055d4411f, type: 2}
+  - {fileID: 11400000, guid: fa6c98be047210c42b07b2222a8dad31, type: 2}
+  - {fileID: 11400000, guid: e975882cb2d2b164ea529782c1131a6c, type: 2}
+  - {fileID: 11400000, guid: 4da52386a89629a408714f2c40f1f4c9, type: 2}
+  - {fileID: 11400000, guid: c3b73fe539f4f6749a3c73a1cc2b20b6, type: 2}
+  - {fileID: 11400000, guid: dbbbf588a4c11814893b76e8178afd98, type: 2}
+  - {fileID: 11400000, guid: 7b3e5010295b6c6479d9be1faea44f1f, type: 2}
+  - {fileID: 11400000, guid: 607d9a41ecb98254db3bbf919e54af24, type: 2}
+  - {fileID: 11400000, guid: d832e7e6df6d3224eb6b2e5438a03592, type: 2}
+  - {fileID: 11400000, guid: a97f17be647cde64e9d40febb56d5fae, type: 2}
+  - {fileID: 11400000, guid: a5d2723a921a3fe4bba4dd99b04bda81, type: 2}
+  - {fileID: 11400000, guid: b385199d4b6e36145b77a43e7cce3978, type: 2}
+  - {fileID: 11400000, guid: c6b0c6b2fc295ba4eaff445520d8cc2c, type: 2}
+  - {fileID: 11400000, guid: 09e9d8f645daeaa409bbf4495998766a, type: 2}
+  - {fileID: 11400000, guid: 112ab7c2c76084e4c98dea8ac1ee73eb, type: 2}
+  - {fileID: 11400000, guid: 17df7f68c20d43e4daa444980540c762, type: 2}
+  - {fileID: 11400000, guid: 8266beadebda5984da7d795cd4e0ed12, type: 2}
+  - {fileID: 11400000, guid: 2ec63c40a886df44aa8d6c64f46accb5, type: 2}
+  - {fileID: 11400000, guid: 405b50bb4761c2948bc4b3f0cb5df747, type: 2}
+  - {fileID: 11400000, guid: ef4ade1ce7f6b6e4d99adcdf76ba28cf, type: 2}
+  orbs:
+  - type: 0
+    orbPrefab: {fileID: 2358582030723655647, guid: 12b959bae5281da48afd34ca2cbbc534,
+      type: 3}
+  - type: 1
+    orbPrefab: {fileID: 3494957051299232092, guid: 362cb584de1ac5e4c8fa0554120b171e,
+      type: 3}
+  - type: 2
+    orbPrefab: {fileID: 2027949828810706207, guid: 06ef54da46e94e543b1eeb287009a362,
+      type: 3}
+  - type: 3
+    orbPrefab: {fileID: 2982650126645822852, guid: 3ecf3d3627e0234408a47bbb4ee76fe7,
+      type: 3}
